@@ -1,22 +1,23 @@
 import React from 'react';
 import logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
 
 export const Header = () => {
     return(
       <header>
       
-         <a href="#">
+         <Link to="/">
             <div className="logo">
                 <img src={logo} alt="logo" width="120" />
             </div>
-         </a>
+         </Link>
          <ul>
             <li>
-                <a href="#">Inicio </a>
+                <Link to="/">Inicio </Link>
             </li>
             <li>
-                <a href="#">Productos</a>
+                <Link to="/Productos">Productos</Link>
             </li>
          </ul>
          <div className="cart">

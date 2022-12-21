@@ -22,7 +22,7 @@ code {
 }
 
 .App{
-  max-width: 1550px;
+  max-width: 1200px;
   width: 100%;
   min-height: 100vh;
   margin:0 auto;
@@ -35,9 +35,9 @@ code {
 /*--Header--*/
 
 header{
-  width: 95%;
-  min-height: 100px;
-  max-width: 1530px;
+  width: 100%;
+ 
+  max-width: 1200px;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
@@ -113,7 +113,7 @@ header .cart span{
   padding: 60px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 48px 16px;
   box-sizing: border-box;
 }
@@ -132,8 +132,8 @@ header .cart span{
 .producto:hover{
   border: 1px solid rgb(217, 22, 217);
 }
-.producto__img img{
-  width: 200px;
+.producto img{
+  width: 250px;
 
 }
 .producto__footer{
@@ -178,7 +178,7 @@ header .cart span{
   font-family: 'Oswald', sans-serif;
   background-color: violet;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
  
  }
  .buttom .btn:hover{
@@ -195,7 +195,7 @@ header .cart span{
   background-color:violet;
   display: grid;
   text-align: center;
-  padding: -10px;
+  padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 5px;
